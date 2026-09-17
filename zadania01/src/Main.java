@@ -1,13 +1,22 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+//zad1
+    System.out.println("Ania");
+    System.out.println("Bartek");
+    System.out.println("Kasia");
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+    //zad2
+    String imie = "Mateusz";
+    int rokUrodzenia = 2009;
+    double matura = 0.66;
+    //zad3
+    int obecnyRok = 2026;
+    int wiek = obecnyRok - rokUrodzenia;
+
+    System.out.println("Mam na imię " + imie + ", mam " + wiek
+            + " lat i będę pisać maturę za " + matura + " roku.");
 }
+
+
+

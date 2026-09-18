@@ -16,6 +16,33 @@ void main() {
 
     System.out.println("Mam na imię " + imie + ", mam " + wiek
             + " lat i będę pisać maturę za " + matura + " roku.");
+
+    //zad4
+
+//
+//    Scanner scan = new Scanner(System.in);
+//    System.out.println(" Podaj temeperture w Celcjusza");
+//    double stopnie = scan.nextDouble();
+//
+//    double fahrenheita = 1.8 * stopnie + 32.0;
+//
+//    System.out.println("Temperatura w skali fahrenheita " + fahrenheita);
+
+//zad5
+//
+//    Scanner scan = new Scanner(System.in);
+//    System.out.println(" pierwszy blok trojkota");
+//    double pierwszyblok = scan.nextDouble();
+//    System.out.println(" drugi blok trojkota");
+//    double drugiblok = scan.nextDouble();
+//    System.out.println(" trzeci blok trojkota");
+//    double trzeciblok = scan.nextDouble();
+//
+//    double obwod = pierwszyblok + drugiblok + trzeciblok ;
+//
+//    System.out.println("obwod trojkata = " + obwod);
+
+
 }
 
 

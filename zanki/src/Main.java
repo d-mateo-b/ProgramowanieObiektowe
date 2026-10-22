@@ -35,8 +35,62 @@ void main() {
 
     //zad2
 
+//
+//
+//                        Scanner scanner = new Scanner(System.in);
+//
+//                        System.out.print("Podaj ciąg znaków: ");
+//                        String tekst_wejściowy = scanner.nextLine();
+//
+//
+//                        String tekstOdwrócony = new StringBuilder(tekst_wejściowy).reverse().toString();
+//
+//
+//                        System.out.println("Wynik: " + tekstOdwrócony);
+//
+//
+//                        scanner.close();
 
-        }
+        //zad3
+
+
+                        Scanner scanner = new Scanner(System.in);
+
+
+                        System.out.print("Wpisz tekst zawierający cyfry: ");
+                        String tekst = scanner.nextLine();
+
+
+                        int sumaPierwsza = 0;
+                        for (int i = 0; i < tekst.length(); i++) {
+                                char znak = tekst.charAt(i);
+
+                                if (Character.isDigit(znak)) {
+                                        sumaPierwsza += Character.getNumericValue(znak);
+                                }
+                        }
+
+                        System.out.println("Suma cyfr znalezionych w tekście: " + sumaPierwsza);
+
+
+                        int sumaKoncowa = 0;
+                        int pomocniczaSuma = sumaPierwsza;
+
+                        while (pomocniczaSuma > 0) {
+                                sumaKoncowa += pomocniczaSuma % 10;
+                                pomocniczaSuma /= 10;
+                        }
+
+                        System.out.println("Suma cyfr z otrzymanego wyniku: " + sumaKoncowa);
+
+                        scanner.close();
+                }
+
+
+
+
+
+
 
 
 
